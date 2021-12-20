@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="MonsterMelancholy"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\..\;CMake Files\..\..\;CMake Files\..\..\..\;CMake Files\..\..\..\..\;CMake Files\..\..\..\..\Program Files (x86)\;CMake Files\..\..\..\..\Program Files (x86)\Project\;CMake Files\..\..\..\..\Program Files (x86)\Project\lib\;CMake Files\..\..\..\..\Program Files (x86)\Project\lib\cmake\;CMake Files\..\..\..\..\Program Files (x86)\Project\lib\cmake\mongoc-1.0\;CMake Files\..\..\..\..\Program Files (x86)\Project\lib\cmake\bson-1.0\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="C:/Users/richa/CLionProjects/Monster Melancholy v2.0.0 Git/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/richa/CLionProjects/Monster Melancholy v2.0.0 Git/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/richa/CLionProjects/Monster Melancholy v2.0.0 Git/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/richa/CLionProjects/Monster Melancholy v2.0.0 Git/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/richa/CLionProjects/Monster Melancholy v2.0.0 Git/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="C:/Users/richa/CLionProjects/Monster Melancholy v2.0.0 Git/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/richa/CLionProjects/Monster Melancholy v2.0.0 Git/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/richa/CLionProjects/Monster Melancholy v2.0.0 Git/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/richa/CLionProjects/Monster Melancholy v2.0.0 Git/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/richa/CLionProjects/Monster Melancholy v2.0.0 Git/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="MonsterMelancholy">
+				<Option output="C:/Users/richa/CLionProjects/Monster Melancholy v2.0.0 Git/cmake-build-debug/MonsterMelancholy.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/richa/CLionProjects/Monster Melancholy v2.0.0 Git/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DMONGOC_STATIC"/>
+					<Add option="-DBSON_STATIC"/>
+					<Add directory="C:/Program Files (x86)/Project/include/libmongoc-1.0"/>
+					<Add directory="C:/Program Files (x86)/Project/include/libbson-1.0"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/richa/CLionProjects/Monster Melancholy v2.0.0 Git/cmake-build-debug/Makefile&quot;  VERBOSE=1 MonsterMelancholy"/>
+					<CompileFile command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/richa/CLionProjects/Monster Melancholy v2.0.0 Git/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/richa/CLionProjects/Monster Melancholy v2.0.0 Git/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/richa/CLionProjects/Monster Melancholy v2.0.0 Git/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="MonsterMelancholy/fast">
+				<Option output="C:/Users/richa/CLionProjects/Monster Melancholy v2.0.0 Git/cmake-build-debug/MonsterMelancholy.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/richa/CLionProjects/Monster Melancholy v2.0.0 Git/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DMONGOC_STATIC"/>
+					<Add option="-DBSON_STATIC"/>
+					<Add directory="C:/Program Files (x86)/Project/include/libmongoc-1.0"/>
+					<Add directory="C:/Program Files (x86)/Project/include/libbson-1.0"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/richa/CLionProjects/Monster Melancholy v2.0.0 Git/cmake-build-debug/Makefile&quot;  VERBOSE=1 MonsterMelancholy/fast"/>
+					<CompileFile command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/richa/CLionProjects/Monster Melancholy v2.0.0 Git/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/richa/CLionProjects/Monster Melancholy v2.0.0 Git/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/richa/CLionProjects/Monster Melancholy v2.0.0 Git/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="C:/Users/richa/CLionProjects/Monster Melancholy v2.0.0 Git/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/richa/CLionProjects/Monster Melancholy v2.0.0 Git/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/richa/CLionProjects/Monster Melancholy v2.0.0 Git/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/richa/CLionProjects/Monster Melancholy v2.0.0 Git/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/richa/CLionProjects/Monster Melancholy v2.0.0 Git/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="C:/Users/richa/CLionProjects/Monster Melancholy v2.0.0 Git/MHGcombat.h">
+			<Option target="MonsterMelancholy"/>
+		</Unit>
+		<Unit filename="C:/Users/richa/CLionProjects/Monster Melancholy v2.0.0 Git/MHGdataHandle.h">
+			<Option target="MonsterMelancholy"/>
+		</Unit>
+		<Unit filename="C:/Users/richa/CLionProjects/Monster Melancholy v2.0.0 Git/MHGsounds.h">
+			<Option target="MonsterMelancholy"/>
+		</Unit>
+		<Unit filename="C:/Users/richa/CLionProjects/Monster Melancholy v2.0.0 Git/MHGtextDisplay.h">
+			<Option target="MonsterMelancholy"/>
+		</Unit>
+		<Unit filename="C:/Users/richa/CLionProjects/Monster Melancholy v2.0.0 Git/main.cpp">
+			<Option target="MonsterMelancholy"/>
+		</Unit>
+		<Unit filename="C:/Users/richa/CLionProjects/Monster Melancholy v2.0.0 Git/sha256.cpp">
+			<Option target="MonsterMelancholy"/>
+		</Unit>
+		<Unit filename="C:/Users/richa/CLionProjects/Monster Melancholy v2.0.0 Git/sha256.h">
+			<Option target="MonsterMelancholy"/>
+		</Unit>
+		<Unit filename="C:/Users/richa/CLionProjects/Monster Melancholy v2.0.0 Git/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="C:/Users/richa/CLionProjects/Monster Melancholy v2.0.0 Git/../../../../Program Files (x86)/Project/lib/cmake/mongoc-1.0/mongoc-1.0-config-version.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\Program Files (x86)\Project\lib\cmake\mongoc-1.0\"/>
+		</Unit>
+		<Unit filename="C:/Users/richa/CLionProjects/Monster Melancholy v2.0.0 Git/../../../../Program Files (x86)/Project/lib/cmake/mongoc-1.0/mongoc-1.0-config.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\Program Files (x86)\Project\lib\cmake\mongoc-1.0\"/>
+		</Unit>
+		<Unit filename="C:/Users/richa/CLionProjects/Monster Melancholy v2.0.0 Git/../../../../Program Files (x86)/Project/lib/cmake/mongoc-1.0/mongoc-targets-debug.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\Program Files (x86)\Project\lib\cmake\mongoc-1.0\"/>
+		</Unit>
+		<Unit filename="C:/Users/richa/CLionProjects/Monster Melancholy v2.0.0 Git/../../../../Program Files (x86)/Project/lib/cmake/mongoc-1.0/mongoc-targets.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\Program Files (x86)\Project\lib\cmake\mongoc-1.0\"/>
+		</Unit>
+		<Unit filename="C:/Users/richa/CLionProjects/Monster Melancholy v2.0.0 Git/../../../../Program Files (x86)/Project/lib/cmake/bson-1.0/bson-1.0-config-version.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\Program Files (x86)\Project\lib\cmake\bson-1.0\"/>
+		</Unit>
+		<Unit filename="C:/Users/richa/CLionProjects/Monster Melancholy v2.0.0 Git/../../../../Program Files (x86)/Project/lib/cmake/bson-1.0/bson-1.0-config.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\Program Files (x86)\Project\lib\cmake\bson-1.0\"/>
+		</Unit>
+		<Unit filename="C:/Users/richa/CLionProjects/Monster Melancholy v2.0.0 Git/../../../../Program Files (x86)/Project/lib/cmake/bson-1.0/bson-targets-debug.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\Program Files (x86)\Project\lib\cmake\bson-1.0\"/>
+		</Unit>
+		<Unit filename="C:/Users/richa/CLionProjects/Monster Melancholy v2.0.0 Git/../../../../Program Files (x86)/Project/lib/cmake/bson-1.0/bson-targets.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\Program Files (x86)\Project\lib\cmake\bson-1.0\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

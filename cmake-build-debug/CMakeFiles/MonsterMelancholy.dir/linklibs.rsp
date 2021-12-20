@@ -1,0 +1,1 @@
+ "C:/Program Files (x86)/Project/lib/libmongoc-static-1.0.a" -lsecur32 -lcrypt32 -lShlwapi -lsecur32 -lcrypt32 -lShlwapi -lBcrypt -lDnsapi "C:/Program Files (x86)/Project/lib/libbson-static-1.0.a" -lws2_32 -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 

@@ -1,0 +1,3 @@
+C:/Users/richa/CLionProjects/Monster Melancholy v2.0.0 Git/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+C:/Users/richa/CLionProjects/Monster Melancholy v2.0.0 Git/cmake-build-debug/CMakeFiles/MonsterMelancholy.dir
+C:/Users/richa/CLionProjects/Monster Melancholy v2.0.0 Git/cmake-build-debug/CMakeFiles/edit_cache.dir
