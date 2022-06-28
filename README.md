@@ -4,7 +4,7 @@
 [![Docs](https://img.shields.io/badge/docs-monster--melancholy.me-brightgreen?style=flat-square&color=%2373DC8C&label=docs)](https://monster-melancholy.me)
 [![Latest Release](https://img.shields.io/github/v/release/HCI-Pro-ductions/Monster_Melancholy?color=lightgreen&include_prereleases&label=latest%20version&style=flat-square)](https://github.com/HCI-Pro-ductions/Monster_Melancholy/releases)
 
-### [Downloads and Instructions](https://monster-melancholy.me/downloads)
+### [Downloads and Instructions](https://monster-melancholy.me)
 
 <br/><br/>
 
